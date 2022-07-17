@@ -1,0 +1,58 @@
+#circulo1{
+    height: 50px;
+    width: 50px;
+    display: table-cell;
+    text-align: center;
+    font-size:20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #502c1d;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5px;
+    border-color:  2px solid #502c1d;
+    color: white;
+  }
+  #circulo2{
+    height: 50px;
+    width: 50px;
+    display: table-cell;
+    text-align: center;
+    font-size:20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border-color:  2px solid #502c1d;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+  }
+  #circulo2:hover{
+    transition: 1.5s;
+    color: white;
+    background-color: #502c1d;
+  }
+  #img_navbar{
+    position: relative;
+    transform: translateY(58px);
+    margin-left: 50px;
+    
+  }
+  
+@media (max-width: 991px) {
+  #img_navbar {
+    display: none;
+  }
+  #navbar-toggles{
+    justify-content: end;
+  }
+}
+
+#card-producto{
+  -webkit-box-shadow: 7px 7px 22px 1px rgba(0,0,0,0.41); 
+box-shadow: 7px 7px 22px 1px rgba(0,0,0,0.41);
+}
+#roast-radio{
+  accent-color: #502c1d;
+  border-radius: 1px solid #502c1d;
+  width: 14px;
+  height: 14px;
+}
